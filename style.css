@@ -1,27 +1,94 @@
+@font-face {
+    font-family:Apo;
+    src: url("Astroph.otf");
+  }
 body{
     text-align: center;
     margin: 0px;
-    background: white;
-    color:black;
+    background: rgb(18, 20, 24);
+    color:rgb(220, 225, 235);
 }
+.main {
+    text-align: center;
+    padding: 120px 20px;
+    /*
+    background: put some random picture of the game here
+    */
+    background-blend-mode: overlay;
+    background-color: rgba(0,0,0,0.6);
+}
+.main h1 {
+    font-size: 60px;
+    margin-bottom: 10px;
+    font-family: Apo;
+} 
 
-
-
-
+.main h2 {
+    font-size: 20px;
+    margin-bottom: 30px;
+    font-family: Apo;
+}
 header{
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 20px 40px;
-    background: black;
+    background: rgb(30, 35, 40);
     position: sticky;
     top:0;
 }
-
+nav a {
+    margin-left: 20px;
+    font-size: 16px;
+    transition: 0.3s;
+    color: rgb(220, 225, 235);
+    font-family: Apo;
+}
+a {
+    text-decoration: none;
+    color: inherit;
+}
 .logo {
-    color: white;
+    color: rgb(220, 225, 235);
     font-size: 28px;
     font-weight: bold;
+    font-family: Apo;
+}
+.desc {
+    padding: 120px 120px;
+    text-align: center;
+    /*
+    background: put another random picture here
+    */
+    background-blend-mode: overlay;
+    background-color: rgba(0,0,0,0.6);
+    font-family: Apo;
+}
+.desc h2{
+    color: rgb(220, 225, 235);
+    font-size: 35px;
+    font-weight: bold;
+    font-family: Apo;
+    
+}
+.grid {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    margin-top: 40px;
+    flex-wrap: wrap;
 }
 
+.card {
+    padding: 30px;
+    width: 280px;
+    border-radius: 10px;
+    transition: 0.3s;
+    background: rgb(50, 56, 65) ;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+    background: rgb(70, 78, 90);
+}
 
