@@ -10,7 +10,7 @@ body{
 }
 .main {
     text-align: center;
-    padding: 120px 20px;
+    padding: 13vw 20px;
     /*
     background: put some random picture of the game here
     */
@@ -55,7 +55,7 @@ a {
     font-family: Apo;
 }
 .desc {
-    padding: 120px 120px;
+    padding: 13vw 120px;
     text-align: center;
     /*
     background: put another random picture here
